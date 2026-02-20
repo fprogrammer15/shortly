@@ -398,19 +398,12 @@ img {
   margin: 70px auto;
 }
 
-.site-footer__icon-wrapper {
-  flex-grow: 1;
-}
-
 .site-footer__nav {
   display: grid;
-  flex-grow: 1;
+  margin-left: auto;
+  margin-right: 100px;
   grid-template-columns: repeat(3, 1fr);
   gap: 60px;
-}
-
-.site-footer__col {
-
 }
 
 .site-footer__heading {
@@ -427,7 +420,7 @@ img {
   list-style: none;
 }
 
-.site-footer__item.statistics-item:not(:last-child) {
+.site-footer__item:not(:last-child) {
   margin-bottom: 10px;
 }
 
@@ -442,7 +435,8 @@ img {
 
 .social-media__list {
   display: flex;
-  vertical-align: top;
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -451,6 +445,8 @@ img {
 }
 
 .social-media__link {
+  color: var(--white-color);
+  transition: color 0.4s ease;
 }
 
 .social-media__link:hover {
