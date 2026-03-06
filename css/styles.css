@@ -352,13 +352,13 @@ select:-webkit-autofill:focus {
 }
 
 .url-shortener__results {
-  /* display: none; */
+  display: none;
   font-size: 20px;
   line-height: 36px;
 }
 
 .url-shortener__results--open {
-  display: block;
+  /* display: block; */
 }
 
 .url-shortener__result {
@@ -417,6 +417,7 @@ select:-webkit-autofill:focus {
   font-size: 40px;
   line-height: 48px;
   color: var(--text-color-dark);
+  text-transform: capitalize;
 }
 
 .index-features__top-info {
@@ -462,6 +463,8 @@ select:-webkit-autofill:focus {
   margin-top: 88px;
 }
 
+/* INDEX-FEATURE */
+
 .index-feature {
   position: relative;
   padding: 77px 32px 40px;
@@ -489,6 +492,7 @@ select:-webkit-autofill:focus {
   font-size: 22px;
   line-height: normal;
   color:var(--text-color-dark);
+  text-transform: capitalize;
 }
 
 .index-feature__info {
